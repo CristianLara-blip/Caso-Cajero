@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: url(/img/cajero.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    font-family: 'Bellota', cursive;
+}
+
+.cajatotal{
+    background-image: url(/img/fondo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50.4%;
+    height: 72%;
+    margin-left: 143px;
+    margin-top: 76px;
+    border: 5px solid rgb(100, 100, 100);
+    border-radius: 10px;
+    transition: background-image 0.8s; 
+    text-align: center; 
+}
+
+.cajatotal:hover{
+    background-image: url(/img/fondo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.opcion4{
+    background: linear-gradient(0deg, rgb(0, 0, 0), rgb(255, 255, 255));;
+    height: 100px;
+    width: 18%;
+    margin: 0.3em;
+    margin-left: 4%;
+    margin-top: 0%;
+    color: white;
+    font-family: 'Bellota', cursive;
+    font-size: 35px;
+    transition: 0.8s;
+    clip-path: polygon(51% 32%, 100% 0, 100% 57%, 48% 100%, 0 58%, 0 0);
+
+}
+
+.opcion4:hover{
+    opacity: 0.8;
+    color:black; 
+    background: linear-gradient(50deg, rgb(0, 0, 0), white);
+}
+
+.retirototal{
+
+    height: 80%;
+    
+}
+
+
+.cantidad{
+
+    height: 35%;
+    width: 100%;
+    align-items: center;
+
+}
+
+
+.escribir{
+    background: linear-gradient(10deg, rgb(145, 145, 145), white);
+    width: 55%;
+    height: 30%;
+    border: 5px solid rgb(100, 100, 100);
+    border-radius: 10px;
+    transition: 0.8s; 
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-left: 3%;
+    border: 2px solid #5d5d5d;
+    text-align: center;
+    font-family: 'Bellota', cursive;
+}
+
+.escribir:focus{
+    outline: none;
+}
+
+.escribir:hover{
+    background: linear-gradient(0deg, rgb(145, 145, 145), white);
+    opacity: 0.7;
+    border-radius: 20px;
+}
+
+.aceptar{
+    background: linear-gradient(0deg, rgb(0, 0, 0), rgb(255, 255, 255));;
+    height: 70px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.3em;
+    color: white;
+    font-family: 'Bellota', cursive;
+    font-size: 35px;
+    border-radius: 8px;
+    transition: 0.8s;
+    margin-left: 31%;  
+  
+}
+
+.aceptar:hover{
+    opacity: 0.8;
+    border-radius: 20px;
+    color:black; 
+    background: linear-gradient(50deg, rgb(93, 211, 64), white);
+    box-shadow: 0 0 10px rgb(93, 211, 64);
+}
+
+h1{
+    font-size: 80px; 
+    color: white;
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+.j1{
+    margin-top: 1.2%;
+}
